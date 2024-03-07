@@ -1,0 +1,43 @@
+*{
+    background: lightblue;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 160px 0 160px;
+}
+.item{
+    width: 32%;
+    padding-bottom: 32%;
+    margin-bottom: 2%;
+    position: relative;
+    background: lightblue;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-1{
+    background-image: url(https://myaws-test.s3.amazonaws.com/1.png);
+}
+
+#img-2{
+    background-image: url(https://myaws-test.s3.amazonaws.com/2.png);
+}
+
+#img-3{
+    background-image: url(https://myaws-test.s3.amazonaws.com/3.png);
+}
+
+#img-4{
+    background-image: url(https://myaws-test.s3.amazonaws.com/4.png);
+}
+
+#img-5{
+    background-image: url(https://myaws-test.s3.amazonaws.com/5.png);
+}
+
+#img-6{
+    background-image: url(https://myaws-test.s3.amazonaws.com/6.png);
+}
